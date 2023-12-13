@@ -15,18 +15,16 @@ if [ ! -f "$SYSTEM_NAMESPACES_FILE" ]; then
     exit 1
 fi
 
-# Read the system namespaces from the file
-readarray -t SYSTEM_NAMESPACES < "$SYSTEM_NAMESPACES_FILE"
-
 # Iterate through namespaces
-for NAMESPACE in $(kubectl get namespaces -o=jsonpath='{.items[*].metadata.name}'); do
+while IFS= read -r NAMESPACE; do
+    # Trim leading and trailing whitespaces from the namespace
+    NAMESPACE=$(echo "$NAMESPACE" | tr -d '[:space:]')
+
     # Check if the current namespace is a system namespace to be excluded
-    if [[ " ${SYSTEM_NAMESPACES[@]} " =~ " ${NAMESPACE} " ]]; then
-        echo "Skipping system namespace: $NAMESPACE"
-    else
-        # Retrieve the status of pods in the current namespace
+    if [ -n "$NAMESPACE" ]; then
         echo "Namespace: $NAMESPACE"
+        # Retrieve the status of pods in the current namespace
         kubectl get pods --namespace="$NAMESPACE" --no-headers=true
         echo "-------------------------"
     fi
-done
+done < "$SYSTEM_NAMESPACES_FILE"
