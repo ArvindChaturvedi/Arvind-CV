@@ -53,6 +53,8 @@ content:
           Collaborated closely with development teams to facilitate the adoption of AWS EKS, providing training, guidance, and support on containerization best practices and AWS services.
           Implemented performance tuning strategies and utilized AWS cost management tools to optimize the efficiency, scalability, and cost-effectiveness of containerized workloads running on the AWS EKS platform.
           Created comprehensive documentation, including best practices, architectural decisions, and troubleshooting procedures, and conducted knowledge-sharing sessions and workshops to empower teams with the skills and expertise needed to operate and maintain the AWS EKS environment effectively.
+  - title: Experience
+    layout: list
     content:
       - layout: right
         title: British Telecom
@@ -71,6 +73,8 @@ content:
           Created SOPs and KEDB articles for team for PCF, Bosh, Concourse, and Prometheus
           Performed complete setup of Concourse server from which can target all foundations
           Completely automated process of foundation upgrade with the help of concourse
+  - title: Experience
+    layout: list    
     content:
       - layout: right
         title: Synchrony Financial Services
@@ -87,6 +91,8 @@ content:
           Resolved issues and recommended actions based on production and compliance reports
           Collaborated with senior management to develop strategic initiatives and long term goals
           Monitored industry trends, keeping current on latest changes
+  - title: Experience
+    layout: list     
     content:
       - layout: right
         title: Technical Lead
