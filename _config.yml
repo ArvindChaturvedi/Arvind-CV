@@ -25,7 +25,7 @@ linkedin_username: jekyll
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/Arvind-Image.jpg
-about_content: | 
+about_content:
 With over a decade of dedicated experience in the dynamic realm of DevOps, I've continually honed my expertise in orchestrating seamless software delivery pipelines and optimizing cloud infrastructure for organizations across diverse sectors.
 My journey began with hands-on involvement in the installation, management, and upgrade of pivotal technologies such as Pivotal Cloud Foundry and Kubernetes. From configuring spaces and domains to troubleshooting intricate installation issues, I've navigated the complexities of cloud platforms with precision and agility.
 My proficiency extends beyond cloud platforms; I possess a comprehensive understanding of IaaS technologies including AWS, vSphere, GCP, and Azure. Leveraging these platforms, I've architected robust, scalable solutions that align with organizational goals and drive operational efficiency.
