@@ -10,7 +10,7 @@ name: Arvind Chaturvedi
 title: Sr. Software Engineer
 email: Arvind.Chaturvedi1092@gmail.com
 # email_title: Email (Email title override)
-phone: +91-7406062351
+phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -19,18 +19,46 @@ website: Your website (eg. https://google.com)(optional)
 darkmode: false
 
 # Social links
-github_username:  ArvindChaturvedi
+twitter_username: jekyllrb
+github_username:  jekyll
+stackoverflow_username: "00000001"
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
 linkedin_username: jekyll
+xing_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+orcid_username: 0000-0000-0000-0000
+googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/Arvind-Image.jpg
-about_content:
-With over a decade of dedicated experience in the dynamic realm of DevOps, I've continually honed my expertise in orchestrating seamless software delivery pipelines and optimizing cloud infrastructure for organizations across diverse sectors.
-My journey began with hands-on involvement in the installation, management, and upgrade of pivotal technologies such as Pivotal Cloud Foundry and Kubernetes. From configuring spaces and domains to troubleshooting intricate installation issues, I've navigated the complexities of cloud platforms with precision and agility.
-My proficiency extends beyond cloud platforms; I possess a comprehensive understanding of IaaS technologies including AWS, vSphere, GCP, and Azure. Leveraging these platforms, I've architected robust, scalable solutions that align with organizational goals and drive operational efficiency.
-In the realm of monitoring and alerting, I've implemented cutting-edge tools like Splunk, AppDynamics, and Prometheus to proactively identify and address potential bottlenecks and vulnerabilities. Through meticulous analysis and strategic planning, I've developed robust monitoring systems that empower teams to anticipate and mitigate potential risks effectively.
-My expertise in Infrastructure as Code (IAC) using Terraform, coupled with proficiency in scripting languages like Bash and Python, has enabled me to automate critical processes and streamline deployment workflows. This automation ethos extends to CI/CD pipelines, where I've leveraged tools like Concourse, ArgoCD, and Jenkins to establish efficient, reliable delivery mechanisms.
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
