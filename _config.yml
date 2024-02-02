@@ -1,0 +1,112 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Arvind Chaturvedi
+title: Sr. Software Engineer
+email: Arvind.Chaturvedi1092@gmail.com
+# email_title: Email (Email title override)
+phone: +91-7406062351
+# phone_title: Phone (Phone title override)
+website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  ArvindChaturvedi
+linkedin_username: jekyll
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/Arvind-Image.jpg
+about_content: | 
+With over a decade of dedicated experience in the dynamic realm of DevOps, I've continually honed my expertise in orchestrating seamless software delivery pipelines and optimizing cloud infrastructure for organizations across diverse sectors.
+My journey began with hands-on involvement in the installation, management, and upgrade of pivotal technologies such as Pivotal Cloud Foundry and Kubernetes. From configuring spaces and domains to troubleshooting intricate installation issues, I've navigated the complexities of cloud platforms with precision and agility.
+My proficiency extends beyond cloud platforms; I possess a comprehensive understanding of IaaS technologies including AWS, vSphere, GCP, and Azure. Leveraging these platforms, I've architected robust, scalable solutions that align with organizational goals and drive operational efficiency.
+In the realm of monitoring and alerting, I've implemented cutting-edge tools like Splunk, AppDynamics, and Prometheus to proactively identify and address potential bottlenecks and vulnerabilities. Through meticulous analysis and strategic planning, I've developed robust monitoring systems that empower teams to anticipate and mitigate potential risks effectively.
+My expertise in Infrastructure as Code (IAC) using Terraform, coupled with proficiency in scripting languages like Bash and Python, has enabled me to automate critical processes and streamline deployment workflows. This automation ethos extends to CI/CD pipelines, where I've leveraged tools like Concourse, ArgoCD, and Jenkins to establish efficient, reliable delivery mechanisms.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Institution name
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
