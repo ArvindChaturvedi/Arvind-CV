@@ -118,11 +118,7 @@
       {%- endif -%}
       {%- if site.website -%}
         <p>
-          {% if site.website_title %}
-              <a href="{{ site.website }}" rel="nofollow" target="_blank">{{ site.website_title | escape }}</a>
-          {% else %}
-              <a href="{{ site.website }}" rel="nofollow" target="_blank">My Curriculum vitae</a>
-          {% endif %}
+          {{ site.website_title | default: "Curriculum vitae" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
     </div>
