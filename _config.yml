@@ -61,16 +61,16 @@ content:
         quote: >
           Pivotal Cloud Foundry, Kubernetes(TKGI), AWS, Terraform, CloudFormation
         description: | # this will include new lines to allow paragraphs
-        Installed, Managed, upgraded Pivotal cloud foundry (V2.1.X, V2.2.X, V2.3.X, V2.4.X, 2.5.x, 2.6.x, 2.7.x, 2.8.x, 2.9.x) and their compatible versions of service tiles, on IaaS layers (AWS), and have managed application delivery on Platform
-        Configured/Managed Quotas, Domains, and spaces in PCF
-        Deployed Bosh director in Environment managed Bosh releases and Bosh configurations
-        Performed troubleshooting on Installation issues, Foundation issues and Application issues
-        Performed backup and complete restore of Bosh Deployments using BBR
-        Complete analysis of breaking changes, release notes and known issues for newer versions of Ops Manager, PAS(Formerly Known as ERT) & service tiles
-        Based on analysis create roadmap and systematic and error proof upgrade process
-        Created SOPs and KEDB articles for team for PCF, Bosh, Concourse, and Prometheus
-        Performed complete setup of Concourse server from which can target all foundations
-        Completely automated process of foundation upgrade with the help of concourse
+          Installed, Managed, upgraded Pivotal cloud foundry (V2.1.X, V2.2.X, V2.3.X, V2.4.X, 2.5.x, 2.6.x, 2.7.x, 2.8.x, 2.9.x) and their compatible versions of service tiles, on IaaS layers (AWS), and have managed application delivery on Platform
+          Configured/Managed Quotas, Domains, and spaces in PCF
+          Deployed Bosh director in Environment managed Bosh releases and Bosh configurations
+          Performed troubleshooting on Installation issues, Foundation issues and Application issues
+          Performed backup and complete restore of Bosh Deployments using BBR
+          Complete analysis of breaking changes, release notes and known issues for newer versions of Ops Manager, PAS(Formerly Known as ERT) & service tiles
+          Based on analysis create roadmap and systematic and error proof upgrade process
+          Created SOPs and KEDB articles for team for PCF, Bosh, Concourse, and Prometheus
+          Performed complete setup of Concourse server from which can target all foundations
+          Completely automated process of foundation upgrade with the help of concourse
     content:
       - layout: right
         title: Synchrony Financial Services
