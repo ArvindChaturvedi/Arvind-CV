@@ -27,7 +27,9 @@ linkedin_username: Arvind-Chaturvedi
 about_profile_image: images/Arvind-Image.png
 about_content: | # this will include new lines to allow paragraphs
   Skilled in a wide range of technologies including Pivotal Cloud Foundry, Kubernetes, AWS, vSphere, GCP, Azure, and more. Proven experience in monitoring and alerting with tools like Splunk, AppDynamics, New Relic, Signal FX, Prometheus, Grafana, and Alertmanager. Proficient in scripting languages such as Bash and Python and familiar with CI/CD tools like Concourse, ArgoCD, and Jenkins.
+about_content: | # this will include new lines to allow paragraphs
   Designed and implemented a robust, scalable architecture for the AWS EKS-based platform, incorporating best practices for container orchestration, networking, security, and automated provisioning.
+about_content: | # this will include new lines to allow paragraphs
   I have successfully managed and mitigated vulnerabilities in legacy systems and has a track record of creating efficient SOPs and KEDB articles for teams. I am fluent in English and Hindi and is seeking opportunities to leverage his skills to take on professional challenges in the software industry.
 
 content:
@@ -42,16 +44,27 @@ content:
           Cloud Foundry, Kubernetes, AWS, AWS EKS, Terraform, ArgoCD, Jenkins
         description: | # this will include new lines to allow paragraphs
           Configured/Managed PaaS platform(GE's distribution of Cloud foundry and CFCR/KUBO)
+        about_content: | # this will include new lines to allow paragraphs
           Deployed Bosh director in Development and Production Environment, managed Custom Bosh releases and configurations
+        about_content: | # this will include new lines to allow paragraphs
           Performed troubleshooting on Installation issues, Foundation issues and Application issues
+        about_content: | # this will include new lines to allow paragraphs  
           Created SOPs and KEDB articles for the team for PaaS, Bosh, Concourse, and Prometheus
+        about_content: | # this will include new lines to allow paragraphs
           Managed and Mitigated vulnerabilities in the legacy PaaS platform
+        about_content: | # this will include new lines to allow paragraphs
           Spearheaded the initiative to replace the legacy Cloud Foundry platform with an AWS EKS-based platform as a service (PaaS) solution, leading the architectural design and implementation efforts.
+        about_content: | # this will include new lines to allow paragraphs
           Designed and implemented a robust, scalable architecture for the AWS EKS-based platform, incorporating best practices for container orchestration, networking, security, and automated provisioning using Terraform and Crossplane.
+        about_content: | # this will include new lines to allow paragraphs
           Developed and executed a comprehensive migration strategy in collaboration with cross-functional teams, ensuring a seamless transition of applications from Cloud Foundry to AWS EKS while minimizing disruption to business operations.
+        about_content: | # this will include new lines to allow paragraphs
           Established operational procedures, including monitoring, logging, troubleshooting, and CI/CD pipeline automation, to efficiently manage the AWS EKS platform and enhance developer productivity.
+        about_content: | # this will include new lines to allow paragraphs
           Collaborated closely with development teams to facilitate the adoption of AWS EKS, providing training, guidance, and support on containerization best practices and AWS services.
+        about_content: | # this will include new lines to allow paragraphs
           Implemented performance tuning strategies and utilized AWS cost management tools to optimize the efficiency, scalability, and cost-effectiveness of containerized workloads running on the AWS EKS platform.
+        about_content: | # this will include new lines to allow paragraphs
           Created comprehensive documentation, including best practices, architectural decisions, and troubleshooting procedures, and conducted knowledge-sharing sessions and workshops to empower teams with the skills and expertise needed to operate and maintain the AWS EKS environment effectively.
   - title: Experience
     layout: list
@@ -64,14 +77,23 @@ content:
           Pivotal Cloud Foundry, Kubernetes(TKGI), AWS, Terraform, CloudFormation
         description: | # this will include new lines to allow paragraphs
           Installed, Managed, upgraded Pivotal cloud foundry (V2.1.X, V2.2.X, V2.3.X, V2.4.X, 2.5.x, 2.6.x, 2.7.x, 2.8.x, 2.9.x) and their compatible versions of service tiles, on IaaS layers (AWS), and have managed application delivery on Platform
+        about_content: | # this will include new lines to allow paragraphs
           Configured/Managed Quotas, Domains, and spaces in PCF
+        about_content: | # this will include new lines to allow paragraphs
           Deployed Bosh director in Environment managed Bosh releases and Bosh configurations
+        about_content: | # this will include new lines to allow paragraphs
           Performed troubleshooting on Installation issues, Foundation issues and Application issues
+        about_content: | # this will include new lines to allow paragraphs
           Performed backup and complete restore of Bosh Deployments using BBR
+        about_content: | # this will include new lines to allow paragraphs
           Complete analysis of breaking changes, release notes and known issues for newer versions of Ops Manager, PAS(Formerly Known as ERT) & service tiles
+        about_content: | # this will include new lines to allow paragraphs
           Based on analysis create roadmap and systematic and error proof upgrade process
+        about_content: | # this will include new lines to allow paragraphs
           Created SOPs and KEDB articles for team for PCF, Bosh, Concourse, and Prometheus
+        about_content: | # this will include new lines to allow paragraphs
           Performed complete setup of Concourse server from which can target all foundations
+        about_content: | # this will include new lines to allow paragraphs
           Completely automated process of foundation upgrade with the help of concourse
   - title: Experience
     layout: list    
@@ -84,12 +106,19 @@ content:
           Pivotal Cloud Foundry, Kubernetes(TKGI), AWS, vSphere, Concourse, PKS, Grafana, Prometheus
         description: | # this will include new lines to allow paragraphs
           Configured/Managed Pivotal Cloud Foundry Administrator skills including Installing and day 2 operational capabilities of Pivotal Cloud Foundry foundations on AWS, vSphere IAAS layers, Application Delivery on Platform, deploy BOSH Director, backing up and Restoring Pivotal Cloud Foundry, Upgrading PCF foundations and advance BOSH troubleshooting skills
+        about_content: | # this will include new lines to allow paragraphs
           Performed Automating upgrade process and various day-to-day tasks using concourse and shell scripting
+        about_content: | # this will include new lines to allow paragraphs
           Have set up Prometheus, Grafana, Alert manager as Bosh release to monitor foundations
+        about_content: | # this will include new lines to allow paragraphs
           Creating new Dashboards in Splunk and New-Relic to generate system and app specific alerts for foundation.
+        about_content: | # this will include new lines to allow paragraphs
           Communicated business concepts and expected functional behavior to developers and other stakeholders
+        about_content: | # this will include new lines to allow paragraphs
           Resolved issues and recommended actions based on production and compliance reports
+        about_content: | # this will include new lines to allow paragraphs
           Collaborated with senior management to develop strategic initiatives and long term goals
+        about_content: | # this will include new lines to allow paragraphs
           Monitored industry trends, keeping current on latest changes
   - title: Experience
     layout: list     
@@ -102,11 +131,17 @@ content:
           Pivotal Cloud Foundry, Kubernetes(TKGI), AWS, AWS EKS, Terraform, CloudFormation
         description: | # this will include new lines to allow paragraphs
           Pivotal Cloud Foundry Administrator skills including Installing Pivotal Cloud Foundry foundations on AWS, AZURE, Vsphere IAAS layers, Application Delivery on the Platform, deploy a BOSH Director, backing up and Restoring Pivotal Cloud Foundry, Upgrading PCF foundations and advance BOSH troubleshooting skill.
+        about_content: | # this will include new lines to allow paragraphs
           Offered input on technical and platform-related strategic planning initiatives
+        about_content: | # this will include new lines to allow paragraphs
           Organized system operating procedures to strengthen controls
+        about_content: | # this will include new lines to allow paragraphs
           Designed support structure needed to confirm scalable application rollouts
+        about_content: | # this will include new lines to allow paragraphs
           Improved systems with addition of new features and infrastructure
+        about_content: | # this will include new lines to allow paragraphs
           Installed system updates to address vulnerabilities and reduce security issues
+        about_content: | # this will include new lines to allow paragraphs
           Drove technical initiatives for large enterprise systems to align with long-term business strategies
   - title: Education
     layout: list
@@ -122,9 +157,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      I am a versatile individual with a profound passion for diverse pursuits. From excelling in snooker and cricket to delving into autobiographies and finance literature, my intellectual curiosity knows no bounds. A skilled vocalist and avid consumer of cinematic narratives, I navigate between melodies and movies with finesse. However, it is my adventurous spirit that truly defines me, as I embark on exhilarating bike journeys, embracing the allure of the open road. I epitomizes a blend of sophistication and adventurous spirit, continually seeking knowledge and exploration, making each endeavor a testament to my dynamic character and unwavering enthusiasm.
 
 # Footer
 footer_show_references: true
