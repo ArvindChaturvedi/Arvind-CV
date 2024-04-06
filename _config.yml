@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Arvind Chaturvedi
-title: Sr. Software Engineer
+title: Sr. Software Engineer @GE Vernova
 email: Arvind.Chaturvedi1092@gmail.com
 # email_title: Email (Email title override)
 phone: +91-7406062351
@@ -34,7 +34,7 @@ content:
     layout: list
     content:
       - layout: right
-        title: GE Digital
+        title: GE Vernova
         sub_title: Sr. Software Engineer
         caption: 2021-05 - Current
         quote: >
