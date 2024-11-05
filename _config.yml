@@ -12,8 +12,8 @@ email: Arvind.Chaturvedi1092@gmail.com
 # email_title: Email (Email title override)
 phone: +91-7406062351
 # phone_title: Phone (Phone title override)
-website: https://drive.google.com/file/d/1QDd5TtwWQkv-uGnTf3_Db6YSGArFk1c1/view?usp=sharing
-website_title: Download My Resume from here
+website: "https://drive.google.com/file/d/1QDd5TtwWQkv-uGnTf3_Db6YSGArFk1c1/view?usp=sharing"
+website_title: "Download My Resume from here"
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -35,7 +35,7 @@ content:
     layout: list
     content:
       - layout: right
-        title: GE Digital
+        title: GE Vernova
         sub_title: Sr. Software Engineer
         caption: 2021-05 - Current
         quote: >
